@@ -1,7 +1,7 @@
 /********** STUDENT.JS ***********
- * Created by: JE EIGEN NAAM
+ * Created by: Matheo dieryck
  * Created at: 26/01/2024
- * Updated at: 26/01/2024
+ * Updated at: 27/01/2024
 *********************************/
 
 /***** Oefening 01 *****/
