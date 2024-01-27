@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <title>Opdracht 01</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="JE EIGEN NAAM">
+        <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae odio nec lorem cursus viverra vel eu leo. Donec faucibus eget risus sit amet dapibus.">
+        <meta name="keywords" content="Lorem, ipsum, dolor, sit, amet, consectetur, adipiscing">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/docent.css">
+        <link rel="stylesheet" href="styles/student.css">
+    </head>
+    <body>
+        <header>
+            <a href="" title="Link naar Homepage">
+                <img src="content/logo.png" alt="Logo">
+            </a>
+            <ul>
+                <li><a href="#oef1" title="Link naar Oefening 01">Oefening 01</a></li>
+                <li><a href="#oef2" title="Link naar Oefening 02">Oefening 02</a></li>
+            </ul>
+        </header>
+        <main>
+            <h1>Opdracht 01</h1>
+            <section id="oef1" class="oef">
+                <h2>Oefening 01</h2>
+                <h3>Opgave</h3>
+                <ol>
+                    <li>Maak een formulier aan waarin de gebruiker zijn/haar voornaam, naam en e-mailadres kan ingeven.</li>
+                    <li>Zorg ervoor d.m.v. JavaScript dat bij het verzenden van het formulier de gegevens worden ingelezen en in een object worden geplaatst.</li>
+                    <li>
+                        De gegevens ingevuld door de gebruiker dienen gedurende 2 seconden te worden weergegeven in een popup boven het formulier:<br>
+                        <img src="content/oef_01.png" width="900px">
+                    </li>
+                </ol>
+                <section id="oef1-code">
+                    <!-- PLAAT JE CODE HIER -->
+                    <div id="popup" style="display: none;">
+                        <p id="popupText"></p>
+                      </div>
+                    <form id="contactForm">
+                        <label for="firstName">voornaam:</label> <br>
+                        <input type="text" id="firstName" placeholder="Voornaam" required> <br>
+                        <label for="lastName">naam:</label> <br>
+                        <input type="text" id="lastName" placeholder="Naam" required> <br>
+                        <label for="email">e-mailadres</label> <br>
+                        <input type="email" id="email" placeholder="E-mailadres" required> <br>
+                        <button type="submit">Verzenden</button>
+                      </form>
+                      
+                      <div id="popup" style="display: none;">
+                        <p id="popupText"></p>
+                      </div>
+                </section>
+            </section>
+            <section id="oef2" class="oef">
+                <h2>Oefening 02</h2>
+                <h3>Opgave</h3>
+                <ol>
+                    <li>
+                        Maak in JavaScript een lijst met objecten aan met volgende waarden:<br>
+                        <img src="content/oef_02.png" width="600px">
+                    </li>
+                    <li>
+                        Genereer de objecten in de vorm van HTML, dit is het resultaat:<br>
+                        <img src="content/oef_02_result.png" width="600px">
+                    </li>
+                </ol>
+                <section id="oef2-code"></section>
+            </section>
+        </main>
+        <footer>
+            Opdracht 01
+        </footer>
+        <script src="scripts/student.js"></script>
+    </body>
+</html>

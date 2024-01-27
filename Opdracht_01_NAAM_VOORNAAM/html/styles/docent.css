@@ -1,0 +1,102 @@
+/*********** DOCENT.CSS ************
+ * Created by: Florian Vanmelkebeke
+ * Created at: 26/01/2024
+ * Updated at: 26/01/2024
+ **********************************/
+
+/***** Global *****/
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    border-left: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+}
+
+body > header{
+    background-color: #EEE;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+}
+
+body > header > a > img{
+    max-height: 50px;
+}
+
+body > header > ul{
+    padding: 0;
+    list-style: none;
+    margin-left: 60px;
+    display: flex;
+}
+
+body > header > ul > li{
+    margin-right: 30px;
+}
+
+body > header > ul > li > a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+body > header > ul > li > a:hover{
+    color: #666;
+}
+
+body > main{
+    background-color: #FEFEFE;
+    padding: 30px 30px 0px 30px;
+}
+
+body > main > h1{
+    font-size: 2em;
+    margin-top: 0;
+}
+
+body > footer{
+    background-color: #EEE;
+    padding: 15px 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+/***** Index *****/
+
+.oef {
+    border: solid 1px #EEE;
+    background-color: #FFF;
+    padding: 20px 20px;
+    line-height: 30px;
+    margin: 30px 0px;
+}
+
+.oef > h2{
+    margin-top: 0px;
+}
+
+.oef > ol{
+    border: solid 1px #CCC;
+    background-color: #F6F6F6;
+    padding: 20px 40px;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.oef > section{
+    border: solid 1px #CCC;
+    background-color: #F6F6F6;
+    padding: 10px 10px;
+}
+
+.oef img{
+    margin-top: 20px;
+    border: 1px solid #CCC;
+}
